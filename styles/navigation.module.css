@@ -1,0 +1,48 @@
+.navigation {
+    width: 185px;
+    height: 100%;
+    padding: 15px 27px;
+    font-size:1rem;
+}
+
+.navigation hr {
+    background:rgb(223, 223, 223);
+    height:1px;
+    border:0;
+}
+
+/* 홈/웹툰/도전작가 */
+.navigation a:hover {
+    background: rgb(228, 228, 228);
+}
+
+.mainNavigation a {
+    padding: 7px 10px 7px 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.mainNavigation svg, .subscribeContainer svg  {
+    font-size:25px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/*구독*/
+.subscribeContainer {
+    margin-top: 15px;
+}
+
+.subscribeContainer h2 {
+    font-size: 1.1rem;
+    margin-bottom:10px;
+}
+
+.subscribeContainer a {
+    padding: 7px 10px 7px 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
